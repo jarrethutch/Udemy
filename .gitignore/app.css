@@ -1,0 +1,29 @@
+/*RGBA makes colors transparent, rgb and hexadecimal are very similar*/
+/*full alpha is 1*/
+
+/* need color width and style for all borders*/
+
+h1 {
+    color: rgb(0,255,240);
+/*    border-color: purple;
+    width: 5px;
+    border-style: solid;*/
+    border: 8px dashed rgb(255,100,80);
+}
+
+li {
+    color: rgba(11,99,150,.5);
+
+}
+
+h4 {
+    color: #800080;
+    background: rgb(255,100,80);
+}
+
+body {
+    background: pink;
+/*    background: url("https://images.woodmagazine.mdpcdn.com/sites/default/files/styles/scale_1500_1500/public/image/2016/11/30/WD318111.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
